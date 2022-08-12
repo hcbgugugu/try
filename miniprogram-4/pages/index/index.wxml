@@ -190,4 +190,7 @@
         <text class="wenjuanxing">问卷星</text>
         <text class="tigongjishuzhichi" > 提供技术支持</text>
     </view>
+    <view class="warn">
+            <navigator url="https://developers.weixin.qq.com/miniprogram/dev/component/navigator.html" style="color: #637063;align-items: flex-end;">举报</navigator>
+        </view>
 </view>
