@@ -1,1 +1,112 @@
 /**index.wxss**/
+.container-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #0095ff;
+    font-size: 45rpx;
+    font-weight: 1000;
+    padding: 5% 5% 5% 5%;
+  }
+  
+  .container-tips {
+    padding: 5% 5% 5% 5%;
+  }
+  
+  .usermotto {
+    margin-top: 200px;
+  }
+  .div-line {
+      padding: 0% 10% 0% 10%;
+      border-top: 5rpx dashed #e0e3e0;
+      margin: 5%;
+  }
+  .problem {
+      padding: 5% 5% 5% 5%;
+      font-weight: 500;
+  }
+  .container-box {
+      margin-top: 5%;
+      margin-bottom: 5%;
+      height: 80rpx;
+      border: 3rpx solid #e0e3e0;
+  }
+  .input {
+      display: flex;
+      flex-direction: row;
+      padding: 0% 0% 0% 0%;
+  }
+  .input2 {
+      padding: 2% 0% 0% 0%;
+  }
+  .image {
+      height: 80rpx;
+      width: 80rpx;
+  }
+  .selectrow {
+      flex-direction: row;
+      margin-top: 5%;
+      margin-bottom: 5%;
+  }
+  .select2 {
+      margin-top: 0%;
+      margin-bottom: 0%;
+      height: 80rpx;
+      width: 50%;
+      border: 3rpx solid #e0e3e0;
+  }
+  .select {
+      margin-top: 0%;
+      margin-bottom: 0%;
+      height: 80rpx;
+      border: 3rpx solid #e0e3e0;
+  }
+  .yesno {
+      padding: 2% 2% 2% 2%;
+  }
+  .button {
+      padding: 0% 0% 0% 0%;
+      width: 100rpx;
+      background-color: #0095ff;
+      color: white;
+      size: 100%;
+  }
+  .end {
+      height: 100rpx;
+      background-color: #ebf0eb;
+      align-items: center;
+  }
+  .tigongjishuzhichi {
+      color: #959995;
+  }
+  .wenjuanxing {
+      color: #6e706e;
+  }
+  .icon {
+      height: 10%;
+      width: 10%;
+  }
+  .selectcolumn {
+      display: flex;
+      flex-direction: row;
+      margin-top: 5%;
+      margin-bottom: 5%;
+  }
+  .row {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+  }
+  .duoxuan {
+      padding: 2% 2% 2% 2%;
+  }
+  .end-content {
+      align-items: center;
+      padding: 5% 5% 0% 5%;
+      height:80rpx;
+  }
+  .end-content-star {
+      margin-left: 20%;
+      height: 40rpx;
+      width: 40rpx;
+  }

@@ -1,1 +1,193 @@
 <!--index.wxml-->
+<view class= "container-title">入微网络科技工作室纳新</view>
+<view class="container-tips">Tips:提交问卷后即可获得训练营QQ群二维码！不要忘记扫码进群哦~</view>
+<view class="div-line"> </view>
+<view class="problem">
+    <text style="color: red;font-weight: 1000;">*</text>
+    <text style="font-weight: 550;">1.您的姓名</text>
+    <view class="container-box">
+        <view class="input">
+            <image src="http://m.qpic.cn/psc?/V52WHWhJ4TJPbq0xaFK52i4AVi0gkgTl/ruAMsa53pVQWN7FLK88i5jERs.5YU*ISZODEtwO.SL6vi6SdwnxTJSdP1r3xthGvrSFX3b2dy5JVZOKHMQ4sx3uq2zENOoLeGgeOgFyWrEQ!/b&bo=agBjAAAAAAADBys!&rf=viewer_4" class="image" ></image>
+            <view class="input2"><input /></view>
+        </view>
+    </view>
+    <text style="color: red;font-weight: 1000;">*</text>
+    <text style="font-weight: 550;">2.您的性别</text>
+    <view class="selectcolumn">
+        <radio-group class="row">
+            <view class="select2">
+                <radio
+                    class="yesno"
+                    disabled="{{ false }}"
+                    color="#0095ff"
+                >
+                <text style="color: #637063;">男</text>
+                </radio>
+            </view>
+            <view class="select2">
+                <radio
+                    class="yesno"
+                    disabled="{{ false }}"
+                    color="#0095ff"
+                >
+                <text style="color: #637063;">女</text>
+                </radio>
+            </view>
+        </radio-group>
+    </view>
+    <text style="color: red;font-weight: 1000;">*</text>
+    <text style="font-weight: 550;">3.您的年级</text>
+    <view class="container-box">
+        <view style="padding: 2% 0% 0% 0%;">
+            <input/>
+        </view>
+    </view>
+    <text style="color: red;font-weight: 1000;">*</text>
+    <text style="font-weight: 550;">4.您的专业</text>
+    <view class="container-box">
+        <view style="padding: 2% 0% 0% 0%;">
+            <input/>
+        </view>
+    </view>
+    <text style="color: red;font-weight: 1000;">*</text>
+    <text style="font-weight: 550;">5.是否接触过小程序开发</text>
+    <view class="selectrow">
+        <radio-group>
+            <view class="select">
+                <radio
+                    class="yesno"
+                    disabled="{{ false }}"
+                    color="#0095ff"
+                >
+                <text style="color: #637063;">是</text>
+                </radio>
+            </view>
+            <view class="select">
+                <radio class="yesno"
+                    disabled="{{ false }}"
+                    color="#0095ff"
+                >
+                <text style="color: #637063;">否</text>
+                </radio>
+            </view>
+        </radio-group>
+    </view>
+    <text style="color: red;font-weight: 1000;">*</text>
+    <text style="font-weight: 550;">6.是否接触过web开发</text>
+    <view class="selectrow">
+        <radio-group>
+            <view class="select">
+                <radio
+                    class="yesno"
+                    disabled="{{ false }}"
+                    color="#0095ff"
+                >
+                <text style="color: #637063;">是</text>
+                </radio>
+            </view>
+            <view class="select">
+                <radio class="yesno"
+                    disabled="{{ false }}"
+                    color="#0095ff"
+                >
+                <text style="color: #637063;">否</text>
+                </radio>
+            </view>
+        </radio-group>
+    </view>
+    <text style="color: red;font-weight: 1000;">*</text>
+    <text style="font-weight: 550;">7.是否具有手绘基础</text>
+    <view class="selectrow">
+        <radio-group>
+            <view class="select">
+                <radio
+                    class="yesno"
+                    disabled="{{ false }}"
+                    color="#0095ff"
+                >
+                <text style="color: #637063;">是</text>
+                </radio>
+            </view>
+            <view class="select">
+                <radio class="yesno"
+                    disabled="{{ false }}"
+                    color="#0095ff"
+                >
+                <text style="color: #637063;">否</text>
+                </radio>
+            </view>
+        </radio-group>
+    </view>
+    <text style="color: red;font-weight: 1000;">*</text>
+    <text style="font-weight: 550;">8.是否有视频制作基础</text>
+    <view class="selectrow">
+        <radio-group>
+            <view class="select">
+                <radio
+                    class="yesno"
+                    disabled="{{ false }}"
+                    color="#0095ff"
+                >
+                <text style="color: #637063;">是</text>
+                </radio>
+            </view>
+            <view class="select">
+                <radio class="yesno"
+                    disabled="{{ false }}"
+                    color="#0095ff"
+                >
+                <text style="color: #637063;">否</text>
+                </radio>
+            </view>
+        </radio-group>
+    </view>
+    <text style="color: red;font-weight: 1000;">*</text>
+    <text style="font-weight: 550;">9.是否有PS/AI基础</text>
+    <view class="selectrow">
+        <radio-group>
+            <view class="select">
+                <radio
+                    class="yesno"
+                    disabled="{{ false }}"
+                    color="#0095ff"
+                >
+                <text style="color: #637063;">是</text>
+                </radio>
+            </view>
+            <view class="select">
+                <radio class="yesno"
+                    disabled="{{ false }}"
+                    color="#0095ff"
+                >
+                <text style="color: #637063;">否</text>
+                </radio>
+            </view>
+        </radio-group>
+    </view>
+    <text style="color: red;font-weight: 1000;">*</text>
+    <text style="font-weight: 550;">10.这是一道多选题</text>
+    <view class="selectrow">
+        <checkbox-group >
+            <view class="select">
+                <checkbox class="duoxuan">选项1</checkbox>
+            </view>
+            <view class="select">
+                <checkbox class="duoxuan">选项2</checkbox>
+            </view>
+            <view class="select">
+                <checkbox class="duoxuan">选项3</checkbox>
+            </view>
+        </checkbox-group>
+    </view>
+    <view >
+        <button class="button" >提交</button>
+    </view>
+    
+</view>
+<view class="end">
+    <view class="end-content">
+        <image class="end-content-star" src="http://m.qpic.cn/psc?/V52WHWhJ4TJPbq0xaFK52i4AVi0gkgTl/ruAMsa53pVQWN7FLK88i5p8QjZB8JslYQ..OX1wnCfD*U8uzxF5PJ.slGjql6wAXxaMi16xYaqEFSuHQpVZzUyxTpPFfP0VJSBH2oY1x1TE!/b&bo=IAAgAAAAAAADByI!&rf=viewer_4" mode="aspectFit"></image>
+        <text class="wenjuanxing">问卷星</text>
+        <text class="tigongjishuzhichi" > 提供技术支持</text>
+    </view>
+</view>
