@@ -1,0 +1,36 @@
+/**index.wxss**/
+.main {
+    background: linear-gradient(45deg,#6f2aa1,#393373);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+    width: 750rpx;
+}
+.topcontent {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: KaiTi;
+    padding: 0% 5% 70% 5%;
+    
+}
+.topcontent-image{
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+}
+.firefoxbro {
+    width: 70%;
+    max-height: 100%;
+}
+.indicator {
+    width: 15%;
+    margin-left: 15%;
+    max-height: 100%;
+}
+.bottom {
+    position: absolute;
+    bottom: 0%;
+    height: 20%;
+}

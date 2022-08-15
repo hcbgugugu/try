@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="main">
+    <view class="topcontent">
+        <view class="topcontent-image">
+            <image class="firefoxbro" src="http://m.qpic.cn/psc?/V52WHWhJ4TJPbq0xaFK52i4AVi0gkgTl/ruAMsa53pVQWN7FLK88i5kvJozOiSwiVFA43xv*n7BuRRyJZJvbpqcR6W*hsZRnwZR8DuND7AT9vBxjCM5KI.LhTj.f.8l6OJOVrARwJ6mI!/b&bo=VQJuAAAAAAADBxs!&rf=viewer_4" mode="aspectFit"></image>
+            <image class="indicator" src="http://m.qpic.cn/psc?/V52WHWhJ4TJPbq0xaFK52i4AVi0gkgTl/ruAMsa53pVQWN7FLK88i5kvJozOiSwiVFA43xv*n7Bs*bMeJRJnlF00YWWZWKTFMob*JYjBBGeZqlh.jFmUEn*usAEOO5Bzh.M3svDYDtsE!/b&bo=hACEAAAAAAADFzI!&rf=viewer_4" mode="aspectFit"></image>
+        </view>
+        <text style="margin-top: 5%;">Firefox 会在关闭所有隐私标签页或退出应用时，清除您的搜索记录与浏览历史。虽然这样仍无法对网站或电信运营商匿名，但还是可以简单地防止其他使用此设备的人得知您的上网活动。</text>
+        <navigator style="margin-top: 5%;text-decoration: underline;">正确认识隐私浏览功能</navigator>
+    </view>
+    <view class="bottom">
+        
+    </view>
+</view>
