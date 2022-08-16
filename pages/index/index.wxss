@@ -5,7 +5,8 @@
     flex-direction: column;
     min-height: 100vh;
     overflow: hidden;
-    width: 750rpx;
+    width: 100vw;
+    height: 100vh;
 }
 .topcontent {
     display: flex;
@@ -13,7 +14,7 @@
     color: white;
     font-family: KaiTi;
     padding: 0% 5% 70% 5%;
-    
+    height: 80%;
 }
 .topcontent-image{
     display: flex;
@@ -30,7 +31,50 @@
     max-height: 100%;
 }
 .bottom {
-    position: absolute;
-    bottom: 0%;
-    height: 20%;
+    height: 8%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    border-top:3rpx solid #7c3cad;
+    background-color: linear-gradient(90 deg,#7228a5,#302b5c,);
+    z-index: 8;
+    position: fixed;
+    bottom: 0;
+}
+.bottom-input {
+    border-radius: 5rpx;
+    width: 80%;
+    margin: 2% 20% 2% 2%;
+    height: 6%;
+    display: flex;
+    flex-direction: row;
+    font-family: KaiTi;
+    color: white;
+    background-color: #281c4e;
+    position: fixed;
+    z-index: 9;
+}
+.bing {
+    height: 70%;
+    z-index: 10;
+}
+.input {
+    font-family: KaiTi;
+    color: white;
+}
+.image1 {
+    height: 80%;
+}
+.image2 {
+    height: 80%;
+    display: inline;
+    float: left;
+    margin: 2% 2% 2% 2%;
+    z-index: 10;
+}
+.container-image2 {
+    width: 20%;
+    position: relative;
+    right: 0%;
 }
