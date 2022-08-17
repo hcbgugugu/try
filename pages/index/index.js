@@ -4,6 +4,13 @@ const app = getApp()
 
 Page({
   data: {
+    avatar: '',
+    form:{
+        base :{
+            name:'',
+            age:0
+        }
+    },
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
@@ -12,6 +19,9 @@ Page({
     canIUseOpenData: wx.canIUse('open-data.type.userAvatarUrl') && wx.canIUse('open-data.type.userNickName') // 如需尝试获取用户信息可改为false
   },
   // 事件处理函数
+  inputChange(e){
+      console.log(e.detail.value)
+  },
   bindViewTap() {
     wx.navigateTo({
       url: '../logs/logs'

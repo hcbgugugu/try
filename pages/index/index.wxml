@@ -12,7 +12,7 @@
         <view class="bottom-input">
             <image class="bing" src="http://m.qpic.cn/psc?/V52WHWhJ4TJPbq0xaFK52i4AVi0gkgTl/ruAMsa53pVQWN7FLK88i5mLoh*5WKpWr48TAPkf5kIkLxycC4wVAEkm0iH.zKPzftg.EOxsejAu0cNvoU*7DfGdQBghclJhlqrlxJCKaQiQ!/b&bo=IAAgAAAAAAADByI!&rf=viewer_4" mode="aspectFit"></image>
             <form>
-                <input class="input" placeholder="搜索或输入网址" placeholder-style="font-family: KaiTi;color: white"/>
+                <input data-name='form.base.name' bindinput="inputChange" name="text" value="{{ form.base.name }}" class="input" placeholder="搜索或输入网址" placeholder-style="font-family: KaiTi;color: white" />
             </form>
         </view>
         <view class="container-image2">
