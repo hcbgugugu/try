@@ -9,10 +9,12 @@
         <navigator style="margin-top: 5%;text-decoration: underline;">正确认识隐私浏览功能</navigator>
     </view>
     <view class="bottom">
-        <form class="bottom-input">
+        <view class="bottom-input">
             <image class="bing" src="http://m.qpic.cn/psc?/V52WHWhJ4TJPbq0xaFK52i4AVi0gkgTl/ruAMsa53pVQWN7FLK88i5mLoh*5WKpWr48TAPkf5kIkLxycC4wVAEkm0iH.zKPzftg.EOxsejAu0cNvoU*7DfGdQBghclJhlqrlxJCKaQiQ!/b&bo=IAAgAAAAAAADByI!&rf=viewer_4" mode="aspectFit"></image>
-            <input class="input" value="搜索或输入网址"/>
-        </form>
+            <form>
+                <input class="input" placeholder="搜索或输入网址" placeholder-style="font-family: KaiTi;color: white"/>
+            </form>
+        </view>
         <view class="container-image2">
             <image class="image2" src="http://m.qpic.cn/psc?/V52WHWhJ4TJPbq0xaFK52i4AVi0gkgTl/ruAMsa53pVQWN7FLK88i5oRPFXumMnDk1Hjzt5PHzc8HGgDuwG3kIps91i3KDgbjsXxXeoYuSiMcyyaMoB4xirVtrqod0uL*Y73YdUjlaJA!/b&bo=PACeAAAAAAADB4A!&rf=viewer_4" mode="aspectFit"></image>
         </view>

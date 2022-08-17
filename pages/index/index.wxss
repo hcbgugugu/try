@@ -7,6 +7,7 @@
     overflow: hidden;
     width: 100vw;
     height: 100vh;
+    font-family: KaiTi;
 }
 .topcontent {
     display: flex;
@@ -57,24 +58,30 @@
 }
 .bing {
     height: 70%;
+    width: 15%;
+    margin-top: 1%;
     z-index: 10;
+    font-family: KaiTi;
 }
 .input {
     font-family: KaiTi;
     color: white;
+    margin-top: 2%;
 }
 .image1 {
     height: 80%;
 }
 .image2 {
-    height: 80%;
+    height: 90%;
+    width: 40%;
     display: inline;
     float: left;
-    margin: 2% 2% 2% 2%;
+    margin: 3% 0% 2% 40%;
     z-index: 10;
 }
 .container-image2 {
-    width: 20%;
+    width: 30%;
+    margin-left: 93%;
     position: relative;
     right: 0%;
 }
